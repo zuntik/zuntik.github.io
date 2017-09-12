@@ -25,7 +25,8 @@ const ENGINES = {
     default: "https://duckduckgo.com/?q=",
     "y": "https://www.youtube.com/results?search_query=",
     "g": "https://github.com/search?utf8=✓&q=",
-    "r": "https://reddit.com/r/"
+    "r": "https://reddit.com/r/",
+    "w": "http://www.dictionary.com/browse/"
 };
 
 const SUBDIRS = {
