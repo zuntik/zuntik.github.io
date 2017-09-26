@@ -24,7 +24,7 @@ function search() {
 const ENGINES = {
     default: "https://duckduckgo.com/?q=",
     "y": "https://www.youtube.com/results?search_query=",
-    "g": "https://github.com/search?utf8=✓&q=",
+    "g": "https://github.com/",
     "r": "https://reddit.com/r/",
     "w": "http://www.dictionary.com/browse/"
 };
