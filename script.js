@@ -26,8 +26,8 @@ const ENGINES = {
     "y": "https://www.youtube.com/results?search_query=",
     "g": "https://github.com/",
     "r": "https://reddit.com/r/",
-    "w": "http://www.dictionary.com/browse/"
-    "4": "4chan.org/"
+    "w": "http://www.dictionary.com/browse/",
+    "4": "http://www.4chan.org/"
 };
 
 const SUBDIRS = {
