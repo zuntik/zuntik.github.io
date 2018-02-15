@@ -27,6 +27,7 @@ const ENGINES = {
     "g": "https://github.com/",
     "r": "https://reddit.com/r/",
     "w": "http://www.dictionary.com/browse/"
+    "4": "4chan.org/"
 };
 
 const SUBDIRS = {
