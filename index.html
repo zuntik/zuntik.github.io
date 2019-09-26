@@ -1,19 +1,66 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="fr">
+	<head>
+		<a name="haut"></a>
+		<link rel="icon"  href="fav.jpg"/>
+		<title>HOME</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+			<style>
+				#main {
+				font-family: 'Press Start 2P', cursive;
+				}
+			</style>
+		<nav>
+		<link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+			<style>
+				#navigation {
+				font-family: 'Press Start 2P', cursive;
+				}
+			</style>
+		
+			<ul id="navigation">
+				<li><a href="trois.html" title="3">Troisième Décan</a></li>
+				<li><a href="deux.html" title="2">Deuxième Décan</a></li>
+				<li><a href="premier.html" title="1">Premier Décan</a></li>
+			</ul>
+		</nav>
+	</head>
+	<header>
+	</header>
+	<body>
+		<div id="main">
+			<h1>Bienvenue</h1>
+			<h2>Vous venez de passer de l'autre coté.</h2>
+			<div id="second">
+				<p>Vous souhaitez retourner dans votre monde? 
+				Il vous suffit de parcourir mon site à la recherche d'indices. La réponse est composée de 6 chiffres.</p>
+				<p>Une fois la réponse trouvée, veuillez la rentrer ci-dessous.</p>
+				<p>Bonne chance à vous.</p>	
+				<img class="acc" src="acc.gif">
+			</div>
+			<div id="pass">
+				<script>
+					function passWord() {
+					var testV = 1;
+					var pass1 = prompt('Votre réponse',' ');
+					while (testV < 3) {
+					if (pass1.toLowerCase() == "191001") {
+					alert('Bravo, vous êtes parvenu au bout de mon énigme! A bientôt.');
+					break ;						} 
+					testV+=1;
+					var pass1 = 
+					prompt('Réessayez !','Réponse');
+					}
+					}
+				</script>
+				<button title="" type="button" class="indice" onclick="passWord()""if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}">Vous pensez avoir trouvé?</button>
+			</div>
+		</div>
+		
+		
+	</body>
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Welcome</title>
-    <link rel="stylesheet" href="style.css">
-</head>
 
-<body>
-    <div id="header">
-        <h3 style="display: inline;">$</h3>   
-        <form method="get" action="javascript:;" onsubmit="search()">
-            <input type="text" id="search_text" autocomplete="off" autofocus>
-        </form>
-    </div>
-
-    <script src="script.js" type="text/javascript"></script>
-</body>
+<center><footer><a href="#haut"><img src="foot.png"></b></a></footer></center>
+</html>

@@ -1,22 +1,226 @@
+/*general*/
+
+a:link { 
+	text-decoration: none;
+}
+
+a:link:hover{
+	cursor: url("curseursur.png"), pointer;
+}
+
+header{
+	background-image: url('../samsung/p1.jpg');
+	background-repeat: repeat;
+	height: 220px;
+	text-align: center;
+}
+
 body {
-    background-color: #002b36;
-    position: absolute;
-    top: 35%;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    width: 550px;
+	background-color: #240137;
+	cursor: url("curseur.png"), pointer;
 }
 
-h3, input {
-    color: #b58900;
-    font-size: 18px;
+#main {
+	border: 1px solid #c4307c;
+	font-size: 13px;
+	background-color: #11011a;
+	max-width: 70%;
+	text-align: center;
+	padding: 0px 60px 30px 60px;
+	margin: 0 auto;
+	margin-top: 15px;
+	border-radius: 20px 20px;
+	color: #c7b4c9;
+}
+
+p {
+	line-height: 140%;
+}
+
+/*bouton*/
+
+button {
+	border: none;
+	color: #c7b4c9;
+	font-size: 14px;
+	border-radius: 17px;
+	background: linear-gradient( #351b43, #11011a);
+	box-shadow: 0 0 5px rgba( 0, 0, 0, 0.5),
+                 0 -1px 0 rgba( 255, 255, 255, 0.4);
+}
+button:hover {
+	cursor: url("curseursur.png"), pointer;
+	background: linear-gradient( #5d3cc8, #8c66a1);
+	box-shadow: 0 0 5px rgba( 0, 0, 0, 0.5),
+                 0 -1px 0 rgba( 255, 255, 255, 0.4);
+}
+button:active{
+     color: #000000;
+     background: linear-gradient( #330217, #7a0237);
+     box-shadow: 1px 1px 10px black inset, 
+                 0 1px 0 rgba( 255, 255, 255, 0.4);
+}
+
+.indice {
+	height: 50px;
+	width: 200px;
+	margin-top: 15px;
+	border: none;
+	padding: 10px;
+	margin-top: -1px;
+}
+
+.soluce {
+	border: none;
+	color: #c7b4c9;	
     background: none;
-    border: none;
-    width: 520px;
+	font-size: 11px;
+	text-align: center;
 }
 
-form {
-    display: inline;
+.soluce:hover {
+	cursor: url("curseursur.png"), pointer;
+	color: #9c2256;
 }
+
+/*menu*/
+
+#navigation li {
+	font-size: 9px;
+	display: inline;
+	float: right;
+	margin-right: 10px;
+	padding-top: 15px;
+	padding-right: 25px;
+}
+
+#navigation li a {
+	color: #ca5892;
+	background-color: #23122c;
+	padding: 12px;
+	border-radius: 25px;
+	box-shadow: 3px 4px 14px black inset, 
+                0 1px 0 rgba( 255, 255, 255, 0.4);
+}
+
+#navigation li a:hover{
+	color:#23122c;
+    background: linear-gradient( #c7b4c9, #8b5690);
+	transition: all 1s;
+}
+
+#navigation li a:active {
+	color: #c7b4c9;
+    background: linear-gradient( #c990b4, #5d3cc8);
+    box-shadow: 1px 1px 10px black inset, 
+                 0 1px 0 rgba( 255, 255, 255, 0.4);
+}
+
+/*index*/
+
+h1 {
+	padding-top: 35px;
+	font-size: 36px;
+	color: #aa507e;
+}
+
+h2 {
+	color: #8693d8;
+}
+
+img.acc {
+	width: 50%;
+}
+
+/*premier*/
+
+#citation {
+	margin-bottom: 25px;
+	
+}
+
+figure {
+	display: inline-block;
+	padding-bottom: 14px;
+}
+
+
+figcaption {
+	font-size: 10px;
+	padding-top: 3px;
+}
+
+#chiffre {
+	background :#23122c;
+	border:dashed 3px  #5b2d74;
+	border-radius:7px;
+	color: #000000;
+	
+}
+
+#second{
+	margin-bottom: 18px;
+}
+
+/*troisième*/
+
+img.espace {
+	width: 40%;
+}
+
+table { 
+	font-size: 8px;
+	border-collapse: collapse;
+	margin: 40px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+th {
+	border: 1px solid #c7b4c9;
+	background-color: #8e0849;
+	padding: 5px;
+}
+
+td {
+	padding: 5px;
+	border: 1px solid #c7b4c9;
+	text-align: center;
+}
+
+td:hover{
+	background-color: white;
+	color: #c7b4c9;
+	opacity:0.8;
+	transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+.text-base{
+   opacity:1;
+   color: #c7b4c9;
+   font-size: 7px;
+}
+
+.text-hover{
+	display:none;
+    color: #c7b4c9;
+	font-size: 7px;
+}
+
+.button:hover span.text-base{
+   opacity:0;
+}
+
+.button:hover span.text-hover{
+   display:inherit;
+   position:absolute;
+   color: #11011a;
+}
+
+/*password*/
+
+script { 
+	background-color: black;
+}
+
